@@ -1,4 +1,4 @@
-# 🛡️ Elastic Home SOC Lab
+#  Elastic Home SOC Lab
 
 ## Overview
 
@@ -41,11 +41,7 @@ The lab was created to develop practical SOC analyst skills, including:
 
 ---
 
-## Project Status
 
-🚧 Work in Progress
-
-This project is continuously being expanded with new detections, attack simulations, and dashboards.# 🛡️ Elastic Home SOC Lab
 
 ## Overview
 
@@ -88,8 +84,3 @@ The lab was created to develop practical SOC analyst skills, including:
 
 ---
 
-## Project Status
-
-🚧 Work in Progress
-
-This project is continuously being expanded with new detections, attack simulations, and dashboards.
