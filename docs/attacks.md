@@ -35,6 +35,9 @@ hydra -l <username> -P <password-list> ssh://<target-ip>
 
 The target address and credentials are omitted from the documentation because they are specific to the local lab environment.
 
+![Hydra SSH brute-force simulation](../screenshots/hydraresult.png)
+
+
 ## Attack Flow
 
 The attack followed this path:
@@ -115,6 +118,8 @@ The network detection path was:
 
 Suricata monitored the network traffic and generated IDS telemetry when suspicious scanning behaviour was observed.
 
+![Kali Linux status](../screenshots/kali%20status.png)
+
 ## Suricata Detection
 
 The scan generated the custom Suricata alert:
@@ -147,6 +152,7 @@ The test validated:
 * Kibana investigation
 
 ---
+![Nmap scan from Kali](../screenshots/nmapkali.png)
 
 # Detection Pipeline Summary
 
