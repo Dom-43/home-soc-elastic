@@ -1,4 +1,4 @@
-# 🛡️ Elastic Home SOC Lab
+#  Elastic Home SOC Lab
 
 ## Overview
 
