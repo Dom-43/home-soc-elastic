@@ -118,7 +118,6 @@ The network detection path was:
 
 Suricata monitored the network traffic and generated IDS telemetry when suspicious scanning behaviour was observed.
 
-![Kali Linux status](../screenshots/kali%20status.png)
 
 ## Suricata Detection
 
