@@ -98,3 +98,110 @@ home-soc-elastic/
 ├── .gitignore
 ├── .gitattributes
 └── README.md
+
+
+
+
+## Documentation
+
+Detailed documentation and evidence for the project are organised throughout the repository:
+
+- [`detections/`](detections/) — Elastic Security detection rule documentation
+- [`diagrams/`](diagrams/) — SOC architecture and attack/detection flow diagrams
+- [`docs/`](docs/) — Detailed technical documentation
+- [`screenshots/`](screenshots/) — Screenshots showing implementation, testing, logs, dashboards, and alerts
+- [`suricata/`](suricata/) — Suricata IDS documentation
+
+---
+
+## Screenshots and Evidence
+
+The repository contains screenshots collected during the implementation and testing of the lab.
+
+These include evidence of:
+
+- Elastic and Fleet configuration
+- Elastic Agent operation
+- Kali Linux attack activity
+- Nmap scanning
+- Hydra activity
+- Authentication logs
+- Kibana event investigation
+- Elastic Security detection
+- Security alerts
+- Suricata operation
+
+See the [`screenshots`](screenshots/) directory for the complete evidence collection.
+
+---
+
+## Skills Demonstrated
+
+This project demonstrates practical experience with:
+
+- Elastic Stack
+- Elasticsearch
+- Kibana
+- Elastic Security
+- Elastic Agent
+- Fleet Server
+- Linux administration
+- Kali Linux
+- Suricata IDS
+- SSH security monitoring
+- Log analysis
+- SIEM investigation
+- Detection engineering
+- Hydra
+- Nmap
+- Attack simulation
+- MITRE ATT&CK
+- Git and GitHub
+- Technical documentation
+
+---
+
+## Limitations
+
+This project was designed as a home SOC lab for learning and demonstrating security monitoring, log analysis, attack simulation, and detection engineering.
+
+As a result, it has several limitations compared with a production SOC environment.
+
+- The environment was virtualised and operated as a small home lab rather than a production network.
+- Attack traffic was intentionally generated from Kali Linux in a controlled environment.
+- The primary detection scenario focused on SSH brute-force activity.
+- Suricata was installed and configured as an IDS, but advanced Suricata detection scenarios were not fully developed or integrated into custom Elastic detection rules.
+- The environment contained only a small number of monitored systems compared with an enterprise network.
+- High availability, redundancy, long-term log retention, and large-scale infrastructure were outside the scope of the project.
+- The lab environment was temporary and is no longer actively running.
+- Screenshots and documentation in this repository preserve evidence of the completed implementation and testing.
+
+---
+
+## Future Improvements
+
+Potential improvements to the lab include:
+
+- Creating additional Elastic Security detection rules for different attack techniques.
+- Integrating Suricata alerts more extensively with Elastic Security.
+- Developing detection scenarios for network reconnaissance such as Nmap scanning.
+- Adding Windows security monitoring and Windows-specific detection scenarios.
+- Simulating additional attacks from Kali Linux to test detection coverage.
+- Creating additional dashboards for authentication failures, network activity, and security alerts.
+- Mapping additional detection rules to the MITRE ATT&CK framework.
+- Implementing alert severity levels and improved investigation workflows.
+- Expanding the environment with additional endpoints and services to better represent an enterprise network.
+
+---
+
+## Project Outcome
+
+The project successfully demonstrated the basic workflow of a small Security Operations Centre:
+
+**Generate activity → Collect telemetry → Analyse events → Detect suspicious behaviour → Generate an alert → Investigate**
+
+The lab provided practical experience building and operating a security monitoring environment using the Elastic Stack and demonstrated how attack activity can be transformed into observable security events and actionable detections.
+
+Although the environment was created for educational purposes, the concepts demonstrated in the project reflect common SOC workflows including centralised logging, SIEM analysis, detection engineering, network monitoring, attack simulation, and security investigation.
+
+The implementation evidence, diagrams, detection documentation, and screenshots have been preserved in this repository as a portfolio record of the completed project.
